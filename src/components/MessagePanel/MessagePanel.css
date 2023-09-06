@@ -1,0 +1,195 @@
+.message-panel {
+    max-width: 1440px;
+    width: 90%;
+    margin: 40px auto 0;
+    border-radius: 20px;
+    border:1px solid rgb(58, 128, 58);
+}
+
+.message-panel_hidden {
+    display: none;
+}
+
+.message-panel__title {
+    margin: 10px auto;
+    font-size: 26px;
+}
+
+.message-panel__form {
+
+}
+
+.message-panel__text-input {
+    width: 90%;
+    height: 150px;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: start;
+}
+
+.message-panel__options-title {
+    margin: 10px;
+    font-size: 24px;
+}
+
+.message-panel__options-block {
+    background-color: rgb(219, 230, 219);
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.message-panel__options-display-block {
+
+}
+
+.message-panel__options-display-title {
+    margin: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.message-panel__options-display-radio-group {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.message-panel__options-display-radio-group-item {
+	display: inline-block;
+	float: left;    
+}
+.message-panel__options-display-radio-group input[type=radio] {
+	display: none;
+}
+.message-panel__options-display-radio-group label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: 1px solid #999;
+	border-right: none;
+	user-select: none;
+}
+ 
+.message-panel__options-display-radio-group .message-panel__options-display-radio-group-item:first-child label {
+	border-radius: 6px 0 0 6px;
+}
+.message-panel__options-display-radio-group .message-panel__options-display-radio-group-item:last-child label {
+	border-radius: 0 6px 6px 0;
+	border-right: 1px solid #999;
+}
+ 
+.message-panel__options-display-radio-group input[type=radio]:checked + label {
+	background: rgb(1, 112, 1);
+    color: #fff;
+}
+
+.message-panel__options-display-radio-group input[type=radio]:not(:checked) + label {
+    color: #bbbbbb;
+	background: #f0f0f0;
+}
+ 
+.message-panel__options-display-radio-group label:hover {
+	color: #666;
+}
+
+.message-panel__options-buttons-block {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, fit-content);
+    justify-content: center;
+    justify-items: center;
+}
+
+.message-panel__options-buttons-title {
+    margin: 5px auto 0 0;
+    justify-self: left;
+}
+
+.message-panel__options-buttons-input {
+    all:unset;
+    max-width: 400px;
+    width: 90%;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 3px 0;
+    text-align: left;
+    background-color: #fff;
+}
+
+.message-panel__options-buttons-input:focus {
+    border: 1px solid rgb(1, 112, 1);
+}
+
+.message-panel__options-buttons-add-button {
+    background-color: rgb(2, 97, 2);
+    color: #fff;
+    margin: 15px;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+.message-panel__options-buttons-add-button:hover {
+    opacity: 0.8;
+}
+
+.message-panel__options-buttons-add-button:active {
+    opacity: 0.6;
+}
+
+.message-panel__options-buttons-add-button:disabled {
+    background-color: rgb(226, 226, 226);
+    color: #969696;
+}
+
+.message-panel__options-hot-keys {
+    all: unset;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto;
+}
+
+.message-panel__options-hot-key {
+    all: unset;
+    width: 120px;
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: rgb(124, 206, 124);
+    margin: 5px 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(31, 112, 31);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.message-panel__options-hot-key_message {
+
+}
+
+.message-panel__options-hot-key_link {
+    text-decoration: underline;
+}
+
+.message-panel__submit-button {
+    margin:  20px;
+    padding: 10px 30px;
+    font-size: 26px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+    border: 2px solid rgb(75, 75, 75);
+}
+
+.message-panel__submit-button:hover {
+    opacity: 0.8;
+}
+
+.message-panel__submit-button:active {
+    opacity: 0.6;
+}
