@@ -23,7 +23,7 @@ export class Api {
 }
 
 const apiMain = new Api({
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'http://localhost:3001',
     headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
