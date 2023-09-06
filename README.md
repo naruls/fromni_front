@@ -7,6 +7,6 @@
 
 ### Требования
 
-Для корректной работы необходимо:
-запустить backend часть приложения formi - https://github.com/naruls/fromni_back;
+Для корректной работы необходимо: <br />
+запустить backend часть приложения formi - https://github.com/naruls/fromni_back; <br />
 установить и запусить базу данных monogoDB;
